@@ -1,0 +1,133 @@
+/* Name: Diego Morales Villafana*/
+body
+{
+    /* This is the background for the page*/
+ /* background-color: rgb(51, 51, 78) 
+ background-image:linear-gradient(pink, blue); */
+
+background-image:radial-gradient(rgb(76, 194, 241), rgb(140, 185, 252)) ;
+background-repeat: repeat;
+/*
+background-image: url("Backblack.jpg");
+
+*/
+}
+h3
+{
+    /*This is the Header*/
+    Text-align: center;
+    font-size: 19px;
+    background-color:darkcyan;
+    border-radius: 2em 2em;
+    border: 11px solid darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid yellow;
+}
+
+h1
+{
+    /* This is the Tittle style */
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color:rgb(212, 154, 7);
+    text-decoration: underline;
+    text-decoration-color:brown;
+}
+
+nav
+{
+    /*This is the links styles */
+    font-size: 25px;
+    padding: 1.25em 10em;
+    text-decoration: dashed;
+    background-color: rgb(255, 255, 255);
+    color:rgb(141, 232, 255);
+    border: 2px solid rgb(253, 238, 32);
+    border-top-left-radius: 1em 1em;
+    border-top-right-radius: 1em 1em;
+    float: left;
+    line-height: 30px;
+}
+p
+{
+    font-size: 22px;
+    color: red;
+}
+    
+footer
+{
+    /* THis is the footer style on the bottom */
+    background-color: pink;
+    border: 2px solid yellow;
+}
+
+h5
+{
+    font-size: 14px;
+    background-color: rgb(4, 0, 65);
+    color: rgb(59, 95, 255);
+    Text-align: left;
+    border: 9px solid rgb(247, 216, 77);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(243, 217, 99);
+    margin: 8px;
+}
+
+button
+{
+    /* This is the button styles*/
+    background-color: rgb(68, 0, 255);
+    border-color: gold;
+    border-radius: 50px;
+    border-style: dashed;
+    width: 120px;
+    height: 30px;
+    color: gold;
+    cursor: pointer;
+}
+/*This is specific button styles*/
+#Pushbutton
+{
+    text-align: right;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#Hoverbutton
+{
+    background-color: gold;
+    color:hotpink;
+    padding: 16px, 32px;
+    transition-duration: .4s;
+    cursor: crosshair;
+    border:none;
+}
+
+#Likedbutton
+{
+    text-align: center;
+    background-color: rgb(54, 255, 121);
+    width: 150px;
+    height: 120px;
+    border-radius: 50px;
+    cursor: grab;
+    margin-right: 200px;
+}
+
+#Nolikedbutton
+{
+    background-color: gold;
+    color:hotpink;
+    padding: 16px, 32px;
+    transition-duration: .4s;
+    cursor: crosshair;
+    border:none;
+    width: 90px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 200px;
+}

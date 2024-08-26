@@ -1,0 +1,80 @@
+/* Name: Diego Morales Villafana*/
+body
+{
+/*This is the background image*/
+background-image: url("Backblack.jpg");
+
+}
+
+/*This is the Big Tittle*/
+h1
+{
+    color: white;
+    Text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color:rgb(228, 21, 135);
+    text-decoration: underline;
+    text-decoration-color:rgb(21, 151, 168);
+}
+/*This is the Name of the list*/
+h3
+{
+    color: rgb(0, 199, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+/*This is the header*/
+h4
+{
+    Text-align: center;
+    font-size: 16px;
+    background-color:darkcyan;
+    border: 9px solid darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid darkturquoise;
+}
+/*This is the paragraph/ list*/
+p
+{
+    color: rgb(0, 199, 199);
+    background-color: rgb(18, 23, 53);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 3px solid cyan;
+    border-radius: 2em 2em;
+    margin-left: 65px;
+}
+
+#futer
+{
+    margin-right: 65px;
+}
+
+h5
+{
+    font-size: 14px;
+    background-color: rgb(4, 0, 65);
+    color: rgb(59, 95, 255);
+    
+    border: 9px solid rgb(247, 216, 77);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(243, 217, 99);
+    margin: 8px;
+}
+
+button
+{
+    color:rgb(248, 194, 18);
+    background-color: rgb(79, 42, 109);
+    width: 120px;
+    height: 36px;
+
+    border-radius: 25;
+    border-color:gold;
+    font-size: 14px;
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-color: rgb(26, 3, 128);
+}
+

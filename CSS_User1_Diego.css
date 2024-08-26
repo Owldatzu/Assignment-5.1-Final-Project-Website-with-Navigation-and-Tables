@@ -1,0 +1,61 @@
+
+
+h1
+{
+    font-size:45px;
+    color: rgb(167, 135, 255);
+    text-decoration-line:underline;
+    text-decoration-color: rgb(185, 203, 255);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 255, 0.137);
+    border-color: aqua;
+    Text-align: right;
+    margin-right: 1500px;
+}
+h2
+{
+    background-color: rgba(120, 113, 224, 0.315);
+    border-color: aqua;
+    Text-align: right;
+    margin-right: 1500px;
+    color: rgb(216, 255, 216);
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+form
+{
+    color: rgb(254, 255, 186);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(211, 100, 192, 0.178);
+    border-color: aqua;
+    font-weight: bold;
+    Text-align: right;
+    margin-right: 1500px;
+}
+body
+{
+    background-image:radial-gradient(rgb(221, 242, 245), rgb(209, 242, 247));
+    background-repeat: repeat;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("background1.jpg");
+    background-size: cover;
+}
+
+button
+{
+    color:rgb(248, 194, 18);
+    background-color: rgb(79, 42, 109);
+    width: 120px;
+    height: 36px;
+
+    border-radius: 25;
+    border-color:gold;
+    font-size: 14px;
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-color: rgb(26, 3, 128);
+    text-align: left;
+    margin-left: 1600px;
+    
+}
