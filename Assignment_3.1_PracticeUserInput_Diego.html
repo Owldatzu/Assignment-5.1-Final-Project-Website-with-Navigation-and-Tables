@@ -1,0 +1,38 @@
+<!--Name: Diego Morales Villafana-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User input_Diego Practice</title>
+    <script src= "JavaScript_UserPractice_Diego.js"></script>
+    <link href="CSS_User1_Diego.css" rel="stylesheet" type = "text/css"/>
+</head>
+<body>
+    <br><br>
+    <h1>Welcome. <br> to Pouple Comics</h1>
+         <br><br><br><br>
+        
+    <img src = "profile-icon-login-head-icon-vector.png"/>
+        
+    <h2>- please log in below</h2>
+
+    <!--This is where the user inputs all their information-->
+    <form id = "loginSubmit" onsubmit="return false">
+        First Name:  <input type = "text" id = "fname"/>
+        <br>
+        Last Name:  <input type = "text" id = "lname"/>
+        <br><br>
+        Zip Number: <input type = "number" id = "badgeID"/> <br><br>
+        <input type = "submit" onclick = "checkCreds();">
+
+        <p id = "loginStatus" > Status of login</p>
+
+    </form>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <button onclick="homePage();">travel to the home page...</button>
+    
+
+</body>
+</html>

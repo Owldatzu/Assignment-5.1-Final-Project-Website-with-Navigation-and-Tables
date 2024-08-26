@@ -1,0 +1,58 @@
+<!--Name: Diego Morales Villafana-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings_DiegoPractice</title>
+    <script src = "JavaScript_StringsPractice_Diego.js"></script>
+    <link href="CSS_Strings_Diego.css" rel="stylesheet" type = "text/css"/>
+    <script src = "JavaScript_NavandTables_Diego.js"></script>
+</head>
+<body>
+    <!--This is the header-->
+    <h5> Welcome to comics/ manga/ games/ series/ music and more enjoy <br><br> Navigate to varied different sites and explore my learning journey </h5>
+
+    <button onclick="UserLogin();">Sign Out</button>  
+    <button onclick="reload();">Reload page</button>
+
+    <br> <br> <br> <br>
+    <button onclick="homePage();">Home Page</button>
+    <button onclick="fightGame();">Play a Game</button>
+    <button onclick="boards();">Site's Boards</button>
+    <button onclick="memePage();">Extreme Meme</button>
+    
+    <button onclick="tablesPage();">Comics Page</button>
+    
+    <br><br>
+
+
+
+    <center>
+    <h1>Welcome! <br> Enter palindromes here! </h1>
+    <br><br>
+    <h3>Palindromes are words that have the same letter order, forward and backwards, <br> Example: Kayak!</h3>
+    <img src = "Creek_kayak.jpg"/>
+    <br><br>
+
+    <!--Here is where the user places their inputs for the page.-->
+    <form onsubmit = "return false">
+        Input a Palin <input type="text" id = "firstStr"/>
+        <input type = "submit" onclick="reverse();"/>
+    </form>
+    <p id = "palin"> Palin results</p>
+
+    <button onclick="imDone()">I'm done</button>
+    <br><br><br><br>
+
+    <form onsubmit = "return false">
+        Also what is this HUGE animal called? <input type="text" id = "animalName"/>
+        <input type = "submit" onclick="animalCheck();"/>
+    </form>
+
+    <p id = "anim"> Hint... this animal is very intelligent! Like you!</p>
+
+    <img src = "African-savanna-elephant.webp"/>
+</center>
+</body>
+</html>
